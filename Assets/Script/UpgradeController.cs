@@ -26,11 +26,6 @@ public class UpgradeController : MonoBehaviour
         CurrentTierText.text = "Level = " + CurrentTier.ToString();
     }
 
-    void Update()
-    {
-        
-    }
-
     public void IncreaseTier()
     {
         if (CostUpgradeTier <= database.UraniumCount)

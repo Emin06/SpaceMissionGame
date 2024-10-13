@@ -19,11 +19,6 @@ public class SpaceCraftController : MonoBehaviour
         FailedTextPanel.SetActive(false);
     }
 
-    void Update()
-    {
-        
-    }
-
     public void LaunchSpaceCraft()
     {
         if (database.DiamondCount >= SpaceCraftLaunchCost)

@@ -9,13 +9,4 @@ public class Database : MonoBehaviour
     public int DiamondCount;
     public int UraniumCount;
 
-    void Start()
-    {
-        
-    }
-
-    void Update()
-    {
-        
-    }
 }

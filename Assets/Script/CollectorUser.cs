@@ -21,14 +21,12 @@ public class CollectorUser : MonoBehaviour
         if (Collector.Active && control)
         {
             InvokeRepeating("IncreaseCollectCrystalCount", 0f, 1f);
-            Debug.Log("ccc");
             control = false;
         }
     }
 
     public void IncreaseCollectCrystalCount()
     {
-        Debug.Log("aaaaaa");
         if (collectorController.CollectorInventoryMaxCount > Collector.InventoryCount)
         {
             Collector.InventoryCount += Collector.CurrentUpgradeTier;

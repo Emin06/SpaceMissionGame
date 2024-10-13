@@ -105,8 +105,4 @@ public class CollectManager : MonoBehaviour
         }
     }
 
-    public void DecreaseCount(int amount)
-    {
-
-    }
 }

@@ -25,7 +25,6 @@ public class ScenarioController1 : MonoBehaviour
 
     public void ExitGame()
     {
-        Debug.Log("Aaa");
         Application.Quit();
     }
 

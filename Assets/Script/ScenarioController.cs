@@ -13,7 +13,6 @@ public class ScenarioController : MonoBehaviour
 
     public bool ScenerioCompleted;
 
-    // Start is called before the first frame update
     void Start()
     {
         ScenerioCompleted = false;
@@ -25,7 +24,6 @@ public class ScenarioController : MonoBehaviour
         StartCoroutine(Scenario1(3f));
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (ScenerioCompleted == true)
